@@ -1,0 +1,73 @@
+clc;clear all;close all
+load Datosn
+
+subplot(2,1,1)
+plot(test1.t,test1.i)
+title('Corriente de descarga')
+xlabel('[s]')
+ylabel('[A]')
+subplot(2,1,2)
+plot(test1.t,test1.v)
+title('Tensión en terminales')
+xlabel('[s]')
+ylabel('[V]')
+
+figure 
+subplot(2,1,1)
+plot(test2.t,test2.i)
+title('Corriente de descarga')
+xlabel('[s]')
+ylabel('[A]')
+subplot(2,1,2)
+plot(test2.t,test2.v)
+title('Tensión en terminales')
+xlabel('[s]')
+ylabel('[V]')
+
+figure 
+subplot(2,1,1)
+plot(test3.t,test3.i)
+title('Corriente de descarga')
+xlabel('[s]')
+ylabel('[A]')
+subplot(2,1,2)
+plot(test3.t,test3.v)
+title('Tensión en terminales')
+xlabel('[s]')
+ylabel('[V]')
+
+figure
+subplot(2,1,1)
+plot(test4.t,test4.i)
+title('Corriente de carga')
+xlabel('[s]')
+ylabel('[A]')
+subplot(2,1,2)
+plot(test4.t,test4.v)
+title('Tensión en terminales')
+xlabel('[s]')
+ylabel('[V]')
+
+figure 
+subplot(2,1,1)
+plot(test5.t,test5.i)
+title('Corriente de carga')
+xlabel('[s]')
+ylabel('[A]')
+subplot(2,1,2)
+plot(test5.t,test5.v)
+title('Tensión en terminales')
+xlabel('[s]')
+ylabel('[V]')
+
+figure 
+subplot(2,1,1)
+plot(test6.t,test6.i)
+title('Corriente de carga')
+xlabel('[s]')
+ylabel('[A]')
+subplot(2,1,2)
+plot(test6.t,test6.v)
+title('Tensión en terminales')
+xlabel('[s]')
+ylabel('[V]')
